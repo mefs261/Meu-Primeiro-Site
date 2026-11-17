@@ -1,0 +1,28 @@
+.capa{
+   min-height: 100vh;
+    display:block;
+    align-items:end;
+    justify-content:center;
+     background-image: 
+        linear-gradient(rgba(0, 30, 52, 0.3), rgba(0, 20, 38, 0.48));
+    background-position: center;
+    background-size: cover;
+    padding:50px;
+    border: 50px;
+    content: 100px;
+    margin: 55px;
+
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+p{font-family:
+    color aliceblue;
+}
+
+
