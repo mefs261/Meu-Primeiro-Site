@@ -1,0 +1,62 @@
+/* ESTILOS DO SITE SOBRE A ODS 4 */
+
+/* Estilo geral da página inteira */
+body {
+  font-family: Arial, sans-serif;  /* tipo de letra */
+  font-size: 18px;                 /* tamanho da letra */
+  line-height: 1.6;                /* espaço entre as linhas */
+  color: #16264a;                  /* cor do texto */
+  background-color: #f4f7fb;       /* cor de fundo */
+  margin: 0;                       /* tira a margem padrão do navegador */
+}
+
+/* Topo vermelho (# seleciona pelo id) */
+#topo {
+  background-color: #c5192d;
+  color: white;
+  text-align: center;              /* centraliza o texto */
+  padding: 40px 20px;              /* espaço por dentro: cima/baixo e lados */
+}
+
+#topo h1 {
+  font-size: 40px;
+  margin: 0 0 10px 0;
+}
+
+/* Links dentro do topo ficam brancos */
+#topo a {
+  color: white;
+  font-weight: bold;
+}
+
+/* Cada bloco de conteúdo (. seleciona pela class) */
+.secao {
+  max-width: 800px;                /* largura máxima do bloco */
+  margin: 0 auto;                  /* centraliza o bloco na tela */
+  padding: 30px 20px;
+}
+
+/* Títulos de cada seção */
+h2 {
+  color: #c5192d;
+  font-size: 30px;
+}
+
+/* Itens das listas */
+li {
+  margin-bottom: 12px;             /* espaço entre os itens */
+}
+
+/* Quando o mouse passa por cima de um link */
+a:hover {
+  background-color: #ffe45c;
+  color: #16264a;
+}
+
+/* Rodapé azul-escuro */
+#rodape {
+  background-color: #16264a;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
